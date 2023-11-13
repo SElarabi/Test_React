@@ -1,0 +1,1 @@
+(()=>{const E=process.env.SECRET_KEY;console.log("SECRET VARIABLE FROM .ENV ",E),document.getElementById("myButton").addEventListener("click",(function(){console.log("SECRET VARIABLE FROM .ENV ",E)}))})();
