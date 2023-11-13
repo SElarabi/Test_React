@@ -7,5 +7,5 @@ const button = document.getElementById('myButton');
 
 // Add a click event listener to the button
 button.addEventListener('click', function () {
-	console.log(varTest);
+	console.log('SECRET VARIABLE FROM .ENV ', varTest);
 });
